@@ -43,12 +43,19 @@
 		color:#AFAFAF;
 		margin-bottom:40px;
 		margin-right:25px;
+		margin-top:10px;
 		font-size:115%;
 	}
 	.region {
 		z-index:3;
 		position:absolute;
 		float:right;
+		margin-left:80px;
+		background-color:#0C0C0C;
+		color:white;
+		border:none;
+		margin-top:10px;
+		font-size:90%;
 	}
 </style>
 </head>
@@ -64,9 +71,9 @@
 				<li>Opinions</li>
 				<li>More...</li>
 			</ul>
-          <div id="logobar">
-			<img src="images/logo.png" width="85px" height="90px"/>
-		  </div>
+          		<div id="logobar">
+				<img src="images/logo.png" width="85px" height="90px"/>
+			</div>
 			<select class="region">
 				<option value"International Edition">International Edition</option>
 				<option value="U.S.">U.S.</option>
